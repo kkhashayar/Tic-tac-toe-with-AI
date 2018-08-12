@@ -38,6 +38,7 @@ semi_positions =[[0,1,2],[0,2,1],[1,2,0],
 #-- Visual the board, with little spice of time 
 def show(board):
     os.system("clear")
+    print("Choose 0-8")
     time.sleep(0.10)
     print(board[0],"|",board[1],"|",board[2])
     time.sleep(0.10)
